@@ -8,7 +8,7 @@ export default function ProjectSection() {
                 <span className="font-embassy-bt text-9xl">P</span>
                 <span className="font-bemore-serif text-6xl">rojects</span>
             </div>
-            <div>
+            <div className="">
                 {projectData.map((project, index) => (
                     <ProjectCard 
                         key={project.id}

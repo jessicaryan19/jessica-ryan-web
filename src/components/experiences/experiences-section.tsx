@@ -1,3 +1,6 @@
+import { experienceData } from "@/data/experiences-data";
+import ExperienceCard from "./experience-card";
+
 export default function ExperiencesSection() {
     return (
         <div className="bg-primary w-full">
@@ -5,8 +8,11 @@ export default function ExperiencesSection() {
                 <span className="font-embassy-bt text-9xl">E</span>
                 <span className="font-bemore-serif text-6xl">xperiences</span>
             </div>
-            <div>
-                
+
+            <div className="flex flex-col ps-60">
+                {experienceData.map((experience) => (
+                    <ExperienceCard key={experience.id} experience={experience}/>
+                ))}
             </div>
         </div>
     )

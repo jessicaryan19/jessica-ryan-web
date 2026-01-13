@@ -19,7 +19,7 @@ export default function ProjectCard({
     }[type];
 
     const indexStyle = {
-        dark: 'text-white/20 right-0',
+        dark: 'text-white/20 left-0',
         light: 'text-primary/10 left-0',
     }[type];
 
@@ -64,7 +64,7 @@ export default function ProjectCard({
     }[type];
 
     return (
-        <div className={`relative flex flex-col ${containerStyle}`}>
+        <div className={`relative flex flex-col ps-60 ${containerStyle}`}>
             <div className={`font-bemore-serif text-[350px] absolute -bottom-40 ${indexStyle}`}>
                 {index.toString().padStart(2, '0')}
             </div>
