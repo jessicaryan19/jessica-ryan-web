@@ -1,6 +1,7 @@
 export enum Stack {
     REACT = "React",
     TYPESCRIPT = "TypeScript",
+    JAVASCRIPT = "JavaScript",
     NATIVE = "React Native",
     PHP = "PHP",
     LARAVEL = "Laravel",
@@ -15,4 +16,10 @@ export enum Stack {
     GODOT = "Godot",
     SUPABASE = "Supabase",
     NEXTJS = "Next.js",
+    POSTGRESQL = "PostgreSQL",
+    JEST = "Jest",
+    JAVA = "Java",
+    GO = "Go",
+    MONGODB = "MongoDB",
+    SQL = "SQL",
 }

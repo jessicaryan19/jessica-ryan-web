@@ -1,6 +1,6 @@
-import { Project } from "./models/project";
-import { Role } from "./models/role";
-import { Stack } from "./models/stack";
+import { Project } from "../types/project";
+import { Role } from "../types/role";
+import { Stack } from "../types/stack";
 
 export const projectData: Project[] = [
     {

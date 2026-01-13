@@ -3,8 +3,8 @@ import ProjectCard from "./project-card";
 
 export default function ProjectSection() {
     return (
-        <div className="bg-primary">
-            <div className="text-white mx-24 my-12">
+        <div className="bg-primary w-full">
+            <div className="text-white mx-32 my-12">
                 <span className="font-embassy-bt text-9xl">P</span>
                 <span className="font-bemore-serif text-6xl">rojects</span>
             </div>

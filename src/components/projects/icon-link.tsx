@@ -1,4 +1,5 @@
-import { ProjectLink } from "@/data/models/projects"
+
+import { ProjectLink } from "@/types/project";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 

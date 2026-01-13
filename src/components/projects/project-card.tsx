@@ -1,4 +1,4 @@
-import { Project } from "@/data/models/project";
+import { Project } from "@/types/project";
 import Image from "next/image";
 import IconLink from "./icon-link";
 
