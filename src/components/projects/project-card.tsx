@@ -1,5 +1,4 @@
-import { Project } from "@/data/models/projects";
-import { Icon } from "@iconify/react";
+import { Project } from "@/data/models/project";
 import Image from "next/image";
 import IconLink from "./icon-link";
 

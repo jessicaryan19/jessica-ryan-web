@@ -1,5 +1,5 @@
-import { Role } from "./roles";
-import { Stack } from "./stacks";
+import { Role } from "./role";
+import { Stack } from "./stack";
 
 
 export type ProjectLinkType =
