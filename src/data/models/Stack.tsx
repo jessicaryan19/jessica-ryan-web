@@ -1,0 +1,18 @@
+export enum Stack {
+    REACT = "React",
+    TYPESCRIPT = "TypeScript",
+    NATIVE = "React Native",
+    PHP = "PHP",
+    LARAVEL = "Laravel",
+    FIGMA = "Figma",
+    UNITY = "Unity",
+    PYTHON = "Python",
+    TENSORFLOW = "TensorFlow",
+    PYTORCH = "PyTorch",
+    KOTLIN = "Kotlin",
+    KERAS = "Keras",
+    MOTOKO = "Motoko",
+    GODOT = "Godot",
+    SUPABASE = "Supabase",
+    NEXTJS = "Next.js",
+}
