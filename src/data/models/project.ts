@@ -1,7 +1,6 @@
 import { Role } from "./role";
 import { Stack } from "./stack";
 
-
 export type ProjectLinkType =
   | "github"
   | "figma"
