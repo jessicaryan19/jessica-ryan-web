@@ -1,5 +1,6 @@
-import { Role } from "./Role";
-import { Stack } from "./Stack";
+import { Role } from "./roles";
+import { Stack } from "./stacks";
+
 
 export type ProjectLinkType =
   | "github"
@@ -18,6 +19,6 @@ export interface Project {
     subtitle: string,
     shortDesc: string,
     roles: Role[],
-    stacks: Stack[]
+    stacks: Stack[],
     links: ProjectLink[],
 }

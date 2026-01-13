@@ -1,6 +1,6 @@
-import { Project } from "./models/Project";
-import { Role } from "./models/Role";
-import { Stack } from "./models/Stack";
+import { Project } from "./models/projects";
+import { Role } from "./models/roles";
+import { Stack } from "./models/stacks";
 
 export const projectData: Project[] = [
     {
@@ -110,7 +110,7 @@ export const projectData: Project[] = [
     },
     {
         id: "ocular-disease-diagnosis",
-        title: "Harnessing Deep Learning for Ocular Disease Diagnosis",
+        title: "Ocular Disease Diagnosis",
         subtitle:
             "A Scientific Paper Published and Presented at the 9th International Conference on Computer Science and Computational Intelligence (ICCSCI)",
         shortDesc:

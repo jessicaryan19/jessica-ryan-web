@@ -1,4 +1,4 @@
-import { Project } from "@/data/models/Project";
+import { Project } from "@/data/models/projects";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import IconLink from "./icon-link";
@@ -36,7 +36,7 @@ export default function ProjectCard({
 
     const dateStyle = {
         dark: 'border-white',
-        light: 'border-primary',
+        light: 'border-primary justify-end',
     }[type];
 
     const badgeContainerStyle = {
@@ -75,11 +75,9 @@ export default function ProjectCard({
             </div>
 
             <div className={`flex justify-between z-20 ${contentStyle}`}>
-                <div className={`min-w-32 border-b-2 relative ${dateStyle}`}>
-                    <div className="h-full flex items-end">
-                        <div className="-rotate-90 text-xl text-nowrap">
-                            {project.date}
-                        </div>
+                <div className={`min-w-32 border-b-2 flex items-end p-4 text-2xl ${dateStyle}`}>
+                    <div className="text-xl" style={{ writingMode: type === 'light' ? 'sideways-lr' : 'vertical-rl' }}>
+                        {project.date}
                     </div>
                 </div>
 
