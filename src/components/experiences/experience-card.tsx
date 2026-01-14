@@ -9,7 +9,7 @@ export default function ExperienceCard({
     experience
 }: ExperienceCardProps) {
     return (
-        <div key={experience.id} className="flex justify-between border-white border-b-2 text-white mx-32 text-lg py-12">
+        <div key={experience.id} className="flex justify-between border-white border-b-2 text-white text-lg px-32 py-12 last:border-b-0">
             <div className="flex flex-col">
                 <div>{experience.company}</div>
                 <div className="font-bemore-serif">
@@ -17,6 +17,7 @@ export default function ExperienceCard({
                     <span className="text-2xl">({experience.type})</span>
                 </div>
             </div>
+            
             <div className="flex flex-col justify-between items-end">
                 <div className="flex flex-col items-end">
                     <div>{experience.location}</div>

@@ -69,7 +69,7 @@ export default function ProjectCard({
                 {index.toString().padStart(2, '0')}
             </div>
 
-            <div className={`min-h-24 flex items-end mx-32 font-bemore-serif text-6xl ${titleStyle}`}>
+            <div className={`min-h-32 flex items-end mx-32 font-bemore-serif text-6xl ${titleStyle}`}>
                 {project.title}
             </div>
 
@@ -111,6 +111,11 @@ export default function ProjectCard({
                         className="object-cover"
                         fill
                     />
+                    
+                <div className="absolute bg-white border-primary border-2 w-4 h-4 -top-2 -left-2"/>
+                <div className="absolute bg-white border-primary border-2 w-4 h-4 -top-2 -right-2"/>
+                <div className="absolute bg-white border-primary border-2 w-4 h-4 -bottom-2 -left-2"/>
+                <div className="absolute bg-white border-primary border-2 w-4 h-4 -bottom-2 -right-2"/>
                 </div>
                 <div className={`min-w-32 border-t-2 ${borderStyle}`} />
             </div>

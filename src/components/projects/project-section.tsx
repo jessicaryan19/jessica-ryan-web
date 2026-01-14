@@ -3,15 +3,17 @@ import ProjectCard from "./project-card";
 
 export default function ProjectSection() {
     return (
-        <div className="bg-primary w-full">
-            <div className="text-white mx-32 my-12">
-                <span className="font-embassy-bt text-9xl">P</span>
-                <span className="font-bemore-serif text-6xl">rojects</span>
+        <div className="bg-white w-full">
+            <div className="text-primary mx-32">
+                <span className="font-embassy-bt text-[200px]">P</span>
+                <span className="font-bemore-serif text-8xl">rojects</span>
             </div>
-            <div className="text-white">
-                A curated selection of my most meaningful work. Built with care.
+            <div className="text-primary mx-32 text-2xl">
+                <div>A curated selection of my most meaningful work.</div>
+                <div>Built with care.</div>
             </div>
-            <div className="">
+            
+            <div className="border-t-2 border-primary">
                 {projectData.map((project, index) => (
                     <ProjectCard 
                         key={project.id}
