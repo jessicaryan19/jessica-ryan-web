@@ -1,4 +1,5 @@
 import { Experience } from "@/types/experience"
+import { Icon } from "@iconify/react"
 
 interface ExperienceCardProps {
     experience: Experience
@@ -16,9 +17,12 @@ export default function ExperienceCard({
                     <span className="text-2xl">({experience.type})</span>
                 </div>
             </div>
-            <div className="flex flex-col items-end">
-                <div>{experience.location}</div>
-                <div>{experience.date}</div>
+            <div className="flex flex-col justify-between items-end">
+                <div className="flex flex-col items-end">
+                    <div>{experience.location}</div>
+                    <div>{experience.date}</div>
+                </div>
+                <Icon icon="fluent-mdl2:arrow-up-right-8" className="text-2xl" />
             </div>
         </div>
     )

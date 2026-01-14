@@ -8,6 +8,9 @@ export default function ProjectSection() {
                 <span className="font-embassy-bt text-9xl">P</span>
                 <span className="font-bemore-serif text-6xl">rojects</span>
             </div>
+            <div className="text-white">
+                A curated selection of my most meaningful work. Built with care.
+            </div>
             <div className="">
                 {projectData.map((project, index) => (
                     <ProjectCard 

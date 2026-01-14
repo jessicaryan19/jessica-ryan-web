@@ -9,9 +9,13 @@ export default function ExperiencesSection() {
                 <span className="font-bemore-serif text-6xl">xperiences</span>
             </div>
 
+            <div>Built systems.</div>
+            <div>Taught people.</div>
+            <div>Learned both ways.</div>
+
             <div className="flex flex-col ps-60">
                 {experienceData.map((experience) => (
-                    <ExperienceCard key={experience.id} experience={experience}/>
+                    <ExperienceCard key={experience.id} experience={experience} />
                 ))}
             </div>
         </div>
