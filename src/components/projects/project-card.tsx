@@ -2,7 +2,6 @@ import { Project } from "@/types/project";
 import Image from "next/image";
 import IconLink from "./icon-link";
 
-
 interface ProjectCardProps {
     type?: 'dark' | 'light'
     project: Project
@@ -120,7 +119,7 @@ export default function ProjectCard({
                 <div className={`min-w-32 border-t-2 ${borderStyle}`} />
             </div>
 
-            <div className={`min-h-24 flex gap-2 p-4 mx-32 z-20 ${iconContainerStyle}`}>
+            <div className={`min-h-32 flex gap-2 p-4 mx-32 z-20 ${iconContainerStyle}`}>
                 {project.links?.map((link) => {
                     return (
                         <IconLink key={link.url} link={link} />
